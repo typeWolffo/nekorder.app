@@ -1,0 +1,63 @@
+name: Feature Request
+description: Suggest a new feature or improvement for Nekorder
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for Nekorder? We'd love to hear it! Please describe your suggestion below.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Motivation
+      description: What problem does this feature solve? Is this related to a frustration?
+      placeholder: "I often need to... but currently..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the feature or change you'd like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions or workarounds?
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Feature Area
+      description: Which part of Nekorder does this relate to?
+      options:
+        - Recording
+        - Zoom & Animations
+        - Timeline / Editor
+        - Cursor
+        - Camera Overlay
+        - Keystroke Display
+        - Backgrounds & Styling
+        - Export
+        - UI / UX
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Mockups / References
+      description: If applicable, add mockups, screenshots, or links to similar features in other apps.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other context about the feature request.
