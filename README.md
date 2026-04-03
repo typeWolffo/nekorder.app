@@ -14,8 +14,8 @@
 <p align="center">
   <a href="https://nekorder.app">Website</a> ·
   <a href="https://nekorder.app/changelog">Changelog</a> ·
-  <a href="https://github.com/typeWolffo/nekorder.app/issues">Issues</a> ·
-  <a href="https://x.com/NekorderApp">Twitter</a>
+  <a href="https://github.com/nekorder/nekorder.app/issues">Issues</a> ·
+  <a href="https://x.com/NekorderApp">X</a>
 </p>
 
 <p align="center">
